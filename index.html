@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <h1 class="visually-hidden">Fylo Data</h1>
+      <section class="container main-flex">
+        <div class="row icons-section">
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+          <div class="icons flex">
+            <div class="experimental">
+              <img src="images/icon-document.svg" alt="document icon" />
+            </div>
+            <div class="experimental">
+              <img src="images/icon-folder.svg" alt="folder icon" />
+            </div>
+            <div class="experimental">
+              <img src="images/icon-upload.svg" alt="upload icon" />
+            </div>
+          </div>
+        </div>
+        <div class="row status-bar-section flex-grow">
+          <p>You’ve used <span class="fw-700">815 GB</span> of your storage</p>
+          <div class="full-length-bar">
+            <div class="fill-bar"><div class="fill-circle"></div></div>
+          </div>
+          <div class="storage-info--limits fw-700">
+            <span class="bottom-limit">0 GB</span>
+            <span class="top-limit">1000 GB</span>
+          </div>
+          <div class="left-storage fw-700 flex">
+            <span class="amount">185</span>
+            <span class="unit">GB LEFT</span>
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
